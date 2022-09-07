@@ -1,0 +1,81 @@
+body {
+    background-color: #979A9A;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  #title {
+    text-align: center;
+    font-family: Times New Roman;
+    margin-top: 10px;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #survey-form {
+    width: 80vh;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 3rem;
+    background-color: #979A9A;
+    border-radius: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1rem;
+    border-bottom: 2px solid;
+  }
+  
+  label {
+    display: block;
+    margin: 0.7rem
+  }
+  
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 5px;
+  }
+  
+  .fieldset-one {
+     padding: 10px 10px 40px 0;
+  }
+  
+  .fieldset-one input {
+    display: block;
+    width: 100%;
+    height: 2em;
+    border-radius: 5px;
+    border-color: white;
+  }
+  
+  .fieldset-two {
+    padding: 10px 0 30px 0;
+  }
+  
+  .fieldset-three {
+    padding: 10px 0 30px 0;
+  }
+  
+  .fieldset-four {
+     padding: 0 0 30px 0;
+  }
+  
+  button {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1rem;
+    min-width: 300px;
+  }
